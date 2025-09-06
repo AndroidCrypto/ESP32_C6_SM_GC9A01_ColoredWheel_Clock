@@ -32,7 +32,7 @@ to the User_Setups folder.
 
 ### Edit the User_Setup_Select.h file
 You need to place the following line in the root folder's "User_Setup_Select.h" file
-
+````plaintext
 #include <User_Setups/Setup708_C6_SM_GC9A01_240x240_Max_ADC.h> // ESP32-C6 Supermini, 80 MHz
 Second: please comment all other "#include..." entries like this, especially the "//#include <User_Setup.h>" entry.
 
@@ -47,7 +47,7 @@ Second: please comment all other "#include..." entries like this, especially the
 //#include <User_Setup.h>                       // Default setup is root library folder
 // Setup file in folder Arduino/libraries (updates will not overwrite your setups)
 #include <User_Setups/Setup708_C6_SM_GC9A01_240x240_Max_ADC.h> // ESP32-C6 Super Mini, 80 MHz
-D
+````
 
 ## Wiring
 ````plaintext
