@@ -3,7 +3,7 @@ The Colored Wheel Clock sketch is a colorfull clock realized with an **ESP32-C6 
 
 This is the accompanying repository for my article "**Create a Color Wheel Clock on a round GC9A01 TFT display with an ESP32-C6 Supermini microcontroller**" available here: 
 
-![Image 1](./images/esp32_epaper_meteomatics_04_600w.png)
+![Image 1](./images/esp32_c6_sm_gc9a01_colored_wheel_clock_01_500h.png)
 
 ## Required Library
 ````plaintext
@@ -19,6 +19,8 @@ For compiling and uploading, I'm using the "ESP32-C6 Dev Module" board
 
 ## Display
 My display is a 1.28-inches large TFT display with 240 x 240 pixels resolution.
+
+![Image 3(./images/esp32_c6_sm_gc9a01_colored_wheel_clock_02_500w.png)
 
 ### Settings for the display specific setup file
 I'm using a display specific setup file for the combination ESP32-C6 Supermini with TFT display driver GC9A01.This file contains e.g. the display driver, size and pins for the ESP32-device. If your display has a different size please change the height and width accordingly.
@@ -62,3 +64,5 @@ Nr name  ESP32-C6 pin
 7  CS    18
 8  BL     0 // 'BL' or 'BACKL' is the backlight pin connected to a PWM pin
 ````
+
+![Image 2(./images/esp32_c6_sm_gc9a01_colored_wheel_clock_03_500w.png)
