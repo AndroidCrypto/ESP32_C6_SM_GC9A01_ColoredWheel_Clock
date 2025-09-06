@@ -2,7 +2,7 @@
 The Colored Wheel Clock sketch is a colorfull clock realized with an **ESP32-C6 microcontroller** and a **GC9A01 round display**.
 
 This is the accompanying repository for my article "**Create a Color Wheel Clock on a round GC9A01 TFT display with an ESP32-C6 Supermini microcontroller**" available here: 
-
+https://medium.com/@androidcrypto/lay-gc9a01-iring-of-the-gc9a01-round-display-to-the-esp32-c6-superminicreate-a-color-wheel-clock-on-1ca1df9862d8
 ![Image 1](./images/esp32_c6_sm_gc9a01_colored_wheel_clock_01_500h.png)
 
 ## Required Library
